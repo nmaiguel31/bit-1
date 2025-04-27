@@ -37,15 +37,14 @@
   }
   
   
-  /* Navbar */
-  .navbar {
+  /* Header */
+  .header {
     background-color: var(--luxus-red-dark);
     padding: 1rem;
   }
   
-  .navbar-content {
-    display: flex;
-    justify-content: space-between;
+  .header-content {
+    text-transform: uppercase;
     align-items: center;
   }
   
@@ -53,8 +52,8 @@
     width: 120px;
   }
   
-  /* Links del navbar */
-  .nav-links a {
+  /* Links del header */
+  .header-links a {
     color: var(--luxus-beige);
     text-decoration: none;
     margin: 0 1rem;
@@ -98,27 +97,54 @@
   /* Collections */
   .womens-collection, .mens-collection {
     text-align: center;
-    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
   }
   
   .womens-collection img, .mens-collection img {
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 100%;
+
+  }
+  .collection-item {
+    position: relative;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .collection-link {
+    display: block;
+    position: relative;
+  }
+  
+  .collection-link img {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
   }
   
-  /* Footer */
-  .footer {
-    background-color: var(--luxus-orange-dark);
+  .collection-link h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-title);
+    font-size: 2.5rem;
     color: white;
-    padding: 2rem 1rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
   }
   
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  
+  /* Footer */
+  .footer {
+    background-color: var(--luxus-red-dark);
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
   }
+  
   
   .footer-section {
     margin: 1rem;
@@ -134,30 +160,17 @@
     margin-top: 2rem;
     font-size: 0.9rem;
   }
-  
-  .about-img, .team-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 8px;
-    flex-shrink: 0;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    gap: 37%;
-}
-
-.logo {
-    height: 70px;
-    cursor: pointer;
-}
-
-.small-social {
-    width: 24px;
-    height: 24px;
-}
+    
+    .logo {
+        height: 70px;
+        cursor: pointer;
+    }
+    
+    .small-social {
+        width: 24px;
+        height: 24px;
+    }
+    
   /* Responsive Design */
   @media (max-width: 992px) {
     .hero-text h1 {
