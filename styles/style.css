@@ -23,6 +23,11 @@
     margin: 0;
     padding: 0;
   }
+
+  .signature, .womens-collection, .mens-collection {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
   
   .hero-text h1,
   .signature h2,
@@ -60,13 +65,14 @@
     cursor: pointer;
 }
 
+/* Links del header */
+
 .header-links {
     display: flex;
     gap: 1.5rem;
     margin: 0 auto;
 }
 
-/* Links del header */
 .header-links a {
     color: var(--luxus-beige);
     text-decoration: none;
