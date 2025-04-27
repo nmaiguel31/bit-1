@@ -1,0 +1,1029 @@
+/* Webpage */
+
+position: relative;
+width: 1440px;
+height: 4237px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 37 */
+
+position: absolute;
+width: 1440px;
+height: 106px;
+left: 0px;
+top: 1024px;
+
+background: #FFEBC3;
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1440px;
+height: 106px;
+left: 1px;
+top: 0px;
+
+background: #FFEBC3;
+
+
+/* Rectangle 36 */
+
+position: absolute;
+width: 1440px;
+height: 578px;
+left: -1px;
+top: 3659px;
+
+background: #FFEBC3;
+
+
+/* Contact Us: Lorem ipsum at et nullam Lorem ipsum at et nullam Lorem ipsum at et nullam Lorem ipsum at et nullam Lorem ipsum at et nullam */
+
+position: absolute;
+width: 236px;
+height: 232px;
+left: 872px;
+top: 3977px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Our address: Lorem ipsum dolor sit amet consectetur. Ac leo ut congue morbi orci ultricies. Lectus amet blandit risus tempus sit commodo. Neque proin aliquam congue tellus. Amet erat consequat risus pretium massa dui nisl purus. Amet sed proin ut sed ultricies elementum. In turpis suspendisse aliquet etiam in tristique. Sagittis non est donec varius duis. Nulla arcu vel cras etiam suscipit aenean. Blandit quam urna tristique habitasse tellus id eget fringilla. */
+
+position: absolute;
+width: 644px;
+height: 205px;
+left: 71px;
+top: 3990px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: justify;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Icon Button
+
+Keywords: action
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 1192px;
+top: 4079px;
+
+background: #800C00;
+border: 1px solid #FFEBC3;
+border-radius: 32px;
+
+
+/* Facebook
+
+Keywords: logo, social
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 29.17%;
+right: 25%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 2px solid #FFEBC3;
+
+
+/* Icon Button
+
+Keywords: action
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 1262px;
+top: 4079px;
+
+background: #800C00;
+border: 1px solid #FFEBC3;
+border-radius: 32px;
+
+
+/* Instagram
+
+Keywords: logo, camera
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 2px solid #FFEBC3;
+
+
+/* Icon Button
+
+Keywords: action
+*/
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+position: absolute;
+width: 44px;
+height: 44px;
+left: 1332px;
+top: 4079px;
+
+background: #800C00;
+border: 1px solid #FFEBC3;
+border-radius: 32px;
+
+
+/* Twitter
+
+Keywords: logo, social
+*/
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.46%;
+bottom: 12.78%;
+
+border: 2px solid #FFEBC3;
+
+
+/* image 10 */
+
+position: absolute;
+width: 97.63px;
+height: 60px;
+left: 25px;
+top: 24px;
+
+background: url(image);
+
+
+/* HP_Hero-FullBleed-Desktop_Gucci-DANCE-ME-OUT-Mar25-Gucci-20-Red-Uncropped_001_Default 1 */
+
+position: absolute;
+width: 1632px;
+height: 918px;
+left: -96px;
+top: 106px;
+
+background: url(HP_Hero-FullBleed-Desktop_Gucci-DANCE-ME-OUT-Mar25-Gucci-20-Red-Uncropped_001_Default.jpg);
+
+
+/* WEAR GOOD FEEL GOOD */
+
+position: absolute;
+width: 704px;
+height: 77px;
+left: 368px;
+top: 231px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 120%;
+/* identical to box height, or 77px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFEBC3;
+
+
+
+/* Frame */
+
+position: absolute;
+width: 277px;
+height: 80px;
+left: 581px;
+top: 914px;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 277px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+
+
+/* Sharp Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 16px;
+
+position: absolute;
+width: 277px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+border-radius: 5px;
+
+
+/* Hover=false */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 116px;
+height: 51px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 32px;
+gap: 9px;
+
+width: 116px;
+height: 51px;
+
+background: #FFEBC3;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Try it for free */
+
+width: 52px;
+height: 11px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 110%;
+/* identical to box height, or 11px */
+letter-spacing: 0.16em;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Hover=true */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 116px;
+height: 51px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 32px;
+gap: 9px;
+
+width: 116px;
+height: 51px;
+
+background: #FFEBC3;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Try it for free */
+
+width: 52px;
+height: 11px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 110%;
+/* identical to box height, or 11px */
+letter-spacing: 0.16em;
+text-transform: uppercase;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* A SIGNATURE COLLECTION */
+
+position: absolute;
+width: 390px;
+height: 38px;
+left: 525px;
+top: 1205px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* humbleicons:user */
+
+position: absolute;
+width: 26px;
+height: 26px;
+left: 1308px;
+top: 39px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 2px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 20.83%;
+bottom: 20.83%;
+
+border: 2px solid #000000;
+
+
+/* icon-park-outline:search */
+
+position: absolute;
+width: 19px;
+height: 19px;
+left: 1346px;
+top: 43px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.33%;
+right: 15.91%;
+top: 8.33%;
+bottom: 13.11%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 20.83%;
+top: 8.33%;
+bottom: 20.83%;
+
+border: 2px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 15.91%;
+top: 25%;
+bottom: 13.11%;
+
+border: 2px solid #000000;
+
+
+/* proicons:menu */
+
+position: absolute;
+width: 25px;
+height: 25px;
+left: 1377px;
+top: 39px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 11.46%;
+right: 11.46%;
+top: 19.79%;
+bottom: 19.79%;
+
+border: 1.5px solid #000000;
+
+
+/* Group 9 */
+
+position: absolute;
+width: 1399px;
+height: 512px;
+left: 25px;
+top: 1291px;
+
+
+
+/* image 7 */
+
+position: absolute;
+width: 335px;
+height: 449px;
+left: 380px;
+top: 1292px;
+
+background: url(image.png);
+box-shadow: 0px 4px 14.5px 12px rgba(0, 0, 0, 0.25);
+
+
+/* image 7 */
+
+position: absolute;
+width: 335px;
+height: 449px;
+left: 735px;
+top: 1292px;
+
+background: url(image.png);
+box-shadow: 0px 4px 14.5px 12px rgba(0, 0, 0, 0.25);
+
+
+/* image 7 */
+
+position: absolute;
+width: 335px;
+height: 449px;
+left: 1089px;
+top: 1292px;
+
+background: url(image.png);
+box-shadow: 0px 4px 14.5px 12px rgba(0, 0, 0, 0.25);
+
+
+/* Women’s Shoes */
+
+position: absolute;
+width: 335px;
+height: 62px;
+left: 25px;
+top: 1741px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Women’s Bags */
+
+position: absolute;
+width: 335px;
+height: 62px;
+left: 380px;
+top: 1741px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Men’s Bags */
+
+position: absolute;
+width: 335px;
+height: 62px;
+left: 735px;
+top: 1741px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Men’s Shoes */
+
+position: absolute;
+width: 335px;
+height: 62px;
+left: 1089px;
+top: 1741px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* image 7 */
+
+position: absolute;
+width: 335px;
+height: 449px;
+left: 25px;
+top: 1291px;
+
+background: url(image.png);
+box-shadow: 0px 4px 14.5px 12px rgba(0, 0, 0, 0.25);
+
+
+/* WOMENS COLLECTION IMAGE */
+
+position: absolute;
+width: 1440px;
+height: 810px;
+left: 0px;
+top: 1851px;
+
+background: url(Screenshot 2025-03-28 183507.png);
+
+
+/* MENS COLLECTION IMAGE */
+
+position: absolute;
+width: 1440px;
+height: 810px;
+left: -1px;
+top: 2752px;
+
+background: url(mens-formal-wear-checklist-for-2024.png);
+
+
+/* WOMEN’S COLLECTION */
+
+position: absolute;
+width: 413px;
+height: 48px;
+left: 173px;
+top: 2554px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+
+/* MEN’S COLLECTION */
+
+position: absolute;
+width: 350px;
+height: 48px;
+left: 205px;
+top: 3438px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+
+/* SIGNATURE */
+
+position: absolute;
+width: 106px;
+height: 24px;
+left: 567px;
+top: 40px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* MEN’S */
+
+position: absolute;
+width: 54px;
+height: 24px;
+left: 711px;
+top: 40px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* WOMEN’S */
+
+position: absolute;
+width: 86px;
+height: 24px;
+left: 803px;
+top: 40px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Join our movement */
+
+position: absolute;
+width: 334px;
+height: 58px;
+left: 552px;
+top: 3712px;
+
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Stay up to date on events, collections and exclusive news */
+
+position: absolute;
+width: 504px;
+height: 29px;
+left: 468px;
+top: 3792px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 504px;
+height: 43px;
+left: 468px;
+top: 3863px;
+
+background: #FFFFFF;
+border-radius: 13px;
+
+
+/* Enter your email address * */
+
+position: absolute;
+width: 238px;
+height: 29px;
+left: 485px;
+top: 3870px;
+
+font-family: 'Cormorant';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(217, 217, 217, 0.41);
+
+
+
+/* Arrow 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 0px;
+left: 940px;
+top: 3885px;
+
+border: 2px solid rgba(217, 217, 217, 0.41);
+
+
+/* image 11 */
+
+position: absolute;
+width: 168.8px;
+height: 131px;
+left: 636px;
+top: 1011px;
+
+background: url(image.png);
+
+
+/* image 12 */
+
+position: absolute;
+width: 363px;
+height: 282px;
+left: 1041px;
+top: 3695px;
+
+background: url(image.png);
+
+
+/* image 13 */
+
+position: absolute;
+width: 363px;
+height: 282px;
+left: 34px;
+top: 3695px;
+
+background: url(image.png);
+
+
+/* lets-icons:bag-alt */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 1274px;
+top: 41px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 12.99%;
+right: 12.99%;
+top: 16.67%;
+bottom: 12.5%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 16.67%;
+bottom: 50%;
+
+border: 2px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.99%;
+right: 12.99%;
+top: 37.5%;
+bottom: 12.5%;
+
+border: 2px solid #000000;
