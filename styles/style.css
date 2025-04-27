@@ -25,8 +25,10 @@
   }
 
   .signature, .womens-collection, .mens-collection {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: 100%;
+    padding: 0 1rem;
 }
   
   .hero-text h1,
@@ -43,7 +45,20 @@
     text-transform: uppercase;
   }
   
-  
+  img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* Asegurarse de que las imágenes en la colección no desborden */
+.signature-item img,
+.womens-collection img,
+.mens-collection img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
   /* Header */
 .header {
     background-color: var(--luxus-red-dark);
@@ -126,6 +141,9 @@
 }
 
 .signature-item {
+    flex: 1 1 100%; /* En pantallas pequeñas, cada imagen ocupa el 100% del ancho */
+}
+.signature-item {
     flex: 1 1 calc(25% - 20px);
     max-width: 100%; 
     box-sizing: border-box;
@@ -154,11 +172,13 @@
   }
   
   /* Collections */
+
 .womens-collection, .mens-collection {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-
+    max-width: 100%;
+    padding: 0 1rem;
   }
   
 .womens-collection img, .mens-collection img {
@@ -303,5 +323,18 @@
 @media (max-width: 576px) {
     .hero-text h1 {
         font-size: 2rem;
+    }
+    .signature-item {
+        flex: 1 1 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .header-links {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
     }
 }
