@@ -20,6 +20,8 @@
     font-family: var(--font-text);
     background-color: var(--luxus-beige);
     color: var(--luxus-green-dark);
+    margin: 0;
+    padding: 0;
   }
   
   .hero-text h1,
@@ -41,6 +43,9 @@
 .header {
     background-color: var(--luxus-red-dark);
     padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-content {
@@ -65,14 +70,21 @@
 .header-links a {
     color: var(--luxus-beige);
     text-decoration: none;
+    margin: 0 1rem;
     font-weight: bold;
+     transition: color 0.3s ease, transform 0.3s ease;
     text-transform: uppercase;
 }
 
+.header-links a:hover {
+    color: var(--luxus-orange-light);
+    transform: scale(1.1);
+}
   
   /* Hero Section */
   .hero-main {
     background: url('../assets/hero-main.png') no-repeat center center/cover;
+    background-size: cover;
     height: 90vh;
     display: flex;
     justify-content: center;
