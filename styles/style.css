@@ -104,7 +104,7 @@
   
   /* Hero Section */
   .hero-main {
-    background: url('../assets/hero-main.png') no-repeat center center/cover;
+    background: url('../assets/hero-main.jpeg') no-repeat center center/cover;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -123,7 +123,7 @@
   .hero-text p {
     font-size: 4rem;
     margin-top: 1rem;
-    color: var(--luxus-red-dark);
+    color: var(--luxus-orange-dark);
   }
   
   /* Signature Section */
@@ -214,6 +214,22 @@
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
   }
   
+  .collection-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .collection-item:hover {
+    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .collection-link h2 {
+    transition: color 0.3s ease;
+  }
+  
+  .collection-link:hover h2 {
+    color: var(--luxus-orange-light); /* o el color que uses en los links del header */
+  }
   
   /* Footer */
 .footer {
@@ -230,7 +246,7 @@
   }
   
 .footer-section a {
-    color: var(--luxus-orange-dark);
+    color: var(--luxus-beige);
     text-decoration: none;
   }
   
