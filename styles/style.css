@@ -125,7 +125,254 @@
     margin-top: 1rem;
     color: var(--luxus-orange-dark);
   }
-  
+  /* Hero de Men's Collection */
+.hero-men {
+  background: url('../assets/hero-men.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-men h1 {
+  font-size: 4rem;
+  color: var(--luxus-beige);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Highlights de productos */
+.men-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.highlight-item {
+  flex: 1 1 calc(30% - 20px);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.highlight-item p {
+  margin-top: 10px;
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  color: var(--luxus-green-dark);
+  transition: color 0.3s ease;
+}
+
+/* Hover efecto en highlights */
+.highlight-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.highlight-item:hover p {
+  color: var(--luxus-orange-dark);
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .highlight-item {
+      flex: 1 1 calc(45% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .highlight-item {
+      flex: 1 1 100%;
+  }
+}
+
+/* Hero de Women's Collection */
+.hero-women {
+  background: url('../assets/hero-women.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-women h1 {
+  font-size: 4rem;
+  color: var(--luxus-beige);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Highlights de productos */
+.women-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+/* El mismo estilo de los highlights para consistencia */
+.women-highlights .highlight-item {
+  flex: 1 1 calc(30% - 20px);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.women-highlights .highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.women-highlights .highlight-item p {
+  margin-top: 10px;
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  color: var(--luxus-green-dark);
+  transition: color 0.3s ease;
+}
+
+/* Hover efecto */
+.women-highlights .highlight-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.women-highlights .highlight-item:hover p {
+  color: var(--luxus-orange-dark);
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .women-highlights .highlight-item {
+      flex: 1 1 calc(45% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .women-highlights .highlight-item {
+      flex: 1 1 100%;
+  }
+}
+
+/* Hero de Signature Collection */
+.hero-signature {
+  background: url('../assets/hero-history.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-signature h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+/* Signature Products */
+.signature-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.signature-products .signature-product {
+  flex: 1 1 calc(30% - 20px);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signature-products .signature-product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.signature-products .signature-product p {
+  margin-top: 10px;
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  color: var(--luxus-green-dark);
+  transition: color 0.3s ease;
+}
+
+/* Hover efecto */
+.signature-products .signature-product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.signature-products .signature-product:hover p {
+  color: var(--luxus-orange-dark);
+}
+
+/* Responsive ajustes */
+@media (max-width: 768px) {
+  .signature-products .signature-product {
+      flex: 1 1 calc(45% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .signature-products .signature-product {
+      flex: 1 1 100%;
+  }
+}
+
+/* Hero de Historia */
+.hero-history {
+  background: url('../assets/hero-history.jpg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-history h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Contenido de Historia */
+.history-content {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.history-content h2 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--luxus-green-dark);
+}
+
+.history-content p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: var(--luxus-green-dark);
+}
+
+
   /* Signature Section */
   .signature {
     padding: 4rem 2rem;
@@ -141,7 +388,7 @@
 }
 
 .signature-item {
-    flex: 1 1 100%; /* En pantallas pequeñas, cada imagen ocupa el 100% del ancho */
+    flex: 1 1 100%; 
 }
 .signature-item {
     flex: 1 1 calc(25% - 20px);
@@ -171,6 +418,86 @@
     text-align: center;
   }
   
+/* Hero de Contacto */
+.contact-hero {
+  background: url('../assets/hero-contact.jpg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Sección del formulario */
+.contact-form {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--luxus-green-dark);
+}
+
+.contact-info p {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: var(--luxus-green-dark);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: var(--luxus-green-dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid var(--luxus-green-dark);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+button {
+  background-color: var(--luxus-orange-dark);
+  color: var(--luxus-beige);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--luxus-green-dark);
+}
+
+
   /* Collections */
 
 .womens-collection, .mens-collection {
@@ -228,7 +555,7 @@
   }
   
   .collection-link:hover h2 {
-    color: var(--luxus-orange-light); /* o el color que uses en los links del header */
+    color: var(--luxus-orange-light);
   }
   
   /* Footer */
@@ -353,4 +680,59 @@
         text-align: center;
         margin-top: 1rem;
     }
+}
+
+/* Para pantallas grandes */
+.hero-text h1 {
+  font-size: 8rem;
+}
+
+.hero-men h1 {
+  font-size: 4rem;
+}
+
+.hero-women h1 {
+  font-size: 4rem;
+}
+
+.hero-signature h1 {
+  font-size: 4rem;
+}
+
+/* Para pantallas medianas (768px) */
+@media (max-width: 768px) {
+.hero-text h1 {
+  font-size: 3rem; 
+}
+
+.hero-men h1 {
+  font-size: 3rem; 
+}
+
+.hero-women h1 {
+  font-size: 3rem; 
+}
+
+.hero-signature h1 {
+  font-size: 3rem; 
+}
+}
+
+/* Para pantallas pequeñas (576px) */
+@media (max-width: 576px) {
+.hero-text h1 {
+  font-size: 2rem; 
+}
+
+.hero-men h1 {
+  font-size: 2rem; 
+}
+
+.hero-women h1 {
+  font-size: 2rem; 
+}
+
+.hero-signature h1 {
+  font-size: 2rem; 
+}
 }
