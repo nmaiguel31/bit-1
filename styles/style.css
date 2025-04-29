@@ -104,7 +104,7 @@
   
   /* Hero Section */
   .hero-main {
-    background: url('../assets/hero-main.jpeg') no-repeat center center/cover;
+    background: url('../assets/hero-main.jpg') no-repeat center center/cover;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -127,7 +127,7 @@
   }
   /* Hero de Men's Collection */
 .hero-men {
-  background: url('../assets/hero-men.jpeg') no-repeat center center/cover;
+  background: url('../assets/hero-men.jpg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -196,7 +196,7 @@
 
 /* Hero de Women's Collection */
 .hero-women {
-  background: url('../assets/hero-women.jpeg') no-repeat center center/cover;
+  background: url('../assets/hero-women.jpg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -266,7 +266,7 @@
 
 /* Hero de Signature Collection */
 .hero-signature {
-  background: url('../assets/hero-signature.jpeg') no-repeat center center/cover;
+  background: url('../assets/hero-signature.jpg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -335,7 +335,7 @@
 
 /* Hero de Historia */
 .hero-history {
-  background: url('../assets/hero-history.jpeg') no-repeat center center/cover;
+  background: url('../assets/hero-history.jpg') no-repeat center center/cover;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -420,7 +420,7 @@
   
 /* Hero de Contacto */
 .contact-hero {
-  background: url('../assets/hero-contact.jpeg') no-repeat center center/cover;
+  background: url('../assets/hero-contact.jpg') no-repeat center center/cover;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -432,6 +432,22 @@
   font-size: 4rem;
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  display: inline-block; /* Para que el fondo solo ocupe el espacio del texto */
+}
+
+.hero-men h1,
+.hero-women h1,
+.hero-signature h1 {
+  background-color: rgba(0, 0, 0, 0.664); /* También para los h1 de cada hero individual */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 /* Sección del formulario */
@@ -555,7 +571,7 @@ button:hover {
   }
   
   .collection-link:hover h2 {
-    color: var(--luxus-orange-light);
+    color: var(--luxus-red-dark);
   }
   
   /* Footer */
