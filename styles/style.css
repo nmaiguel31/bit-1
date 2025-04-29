@@ -127,7 +127,7 @@
   }
   /* Hero de Men's Collection */
 .hero-men {
-  background: url('../assets/hero-men.jpg') no-repeat center center/cover;
+  background: url('../assets/hero-men.jpeg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -196,7 +196,7 @@
 
 /* Hero de Women's Collection */
 .hero-women {
-  background: url('../assets/hero-women.jpg') no-repeat center center/cover;
+  background: url('../assets/hero-women.jpeg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -266,7 +266,7 @@
 
 /* Hero de Signature Collection */
 .hero-signature {
-  background: url('../assets/hero-signature.jpg') no-repeat center center/cover;
+  background: url('../assets/hero-signature.jpeg') no-repeat center center/cover;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -335,7 +335,7 @@
 
 /* Hero de Historia */
 .hero-history {
-  background: url('../assets/hero-history.jpg') no-repeat center center/cover;
+  background: url('../assets/hero-history.jpeg') no-repeat center center/cover;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -420,7 +420,7 @@
   
 /* Hero de Contacto */
 .contact-hero {
-  background: url('../assets/hero-contact.jpg') no-repeat center center/cover;
+  background: url('../assets/hero-contact.jpeg') no-repeat center center/cover;
   height: 60vh;
   display: flex;
   justify-content: center;
