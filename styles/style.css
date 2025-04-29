@@ -89,18 +89,25 @@ img {
 }
 .cart-icon-container {
   position: relative;
+  display: inline-block;
   cursor: pointer;
 }
 
-#cart-count {
+/* Círculo de cantidad */
+.cart-count {
   position: absolute;
   top: -5px;
-  right: -10px;
+  right: -5px;
   background-color: red;
   color: white;
-  border-radius: 50%;
-  padding: 2px 6px;
   font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5; /* Asegura que el círculo esté por debajo del ícono */
 }
 
 .cart-dropdown {
@@ -145,21 +152,33 @@ img {
   color: #333;
 }
 
+.header-icons i {
+  color: var(--luxus-beige);
+}
+
+.cart-icon-container #cart-count {
+  color: var(--luxus-beige);
+}
+
+.cart-icon-container .remove-item:hover {
+  color: var(--luxus-red-dark);
+}
+
 .remove-item-btn {
   background: none;
   border: none;
-  color: #f44336;
+  color: var(--luxus-red-dark);
   cursor: pointer;
   font-size: 16px;
 }
 
 .remove-item-btn:hover {
-  color: #d32f2f;
+  color: var(--luxus-red-dark);
 }
 
 .remove-btn {
   margin-left: 10px;
-  background-color: #dc3545;
+  background-color: var(--luxus-red-dark);
   color: white;
   border: none;
   padding: 5px 10px;
@@ -681,7 +700,7 @@ background-color: var(--luxus-green-dark);
 }
 
 .footer-bottom {
-  text-align: center;
+  text-align: jus;
   margin-top: 2rem;
   font-size: 0.5rem;
 }
