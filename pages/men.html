@@ -26,43 +26,43 @@
     </section>
 
     <section class="men-highlights">
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="1">
             <img src="../assets/mens/Light-Chaqueta-piel.avif" alt="Leather Jacket">
             <p>Leather Jacket</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="2">
             <img src="../assets/mens/Light-Gafas-de-sol.avif" alt="Squared Sunglasses">
             <p>Squared Sunglasses</p>
         </div>
-        <div class="highlight-item">
-            <img src="../assets/mens/Light-Mocasn-hombre.avif" alt="Mocasin">
-            <p>Mocasin</p>
+        <div class="highlight-item" data-id="3">
+            <img src="../assets/mens/Light-Mocasn-hombre.avif" alt="Brown Mocasin">
+            <p>Brown Mocasin</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="4">
             <img src="../assets/mens/Light-Pantalon-denim.avif" alt="Denim Jeans">
             <p>Denim Jeans</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="5">
             <img src="../assets/mens/traje-marron.avif" alt="brown suit">
             <p>Brown Suit</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="6">
             <img src="../assets/mens/smokin.avif" alt="smokin">
             <p>Black Smokin</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="7">
             <img src="../assets/mens/beige-blazer.avif" alt="Beige Blazer">
             <p>Beige Blazer</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="8">
             <img src="../assets/mens/green-scarf.avif" alt="Green Scarf">
             <p>Green Scarf</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="9">
             <img src="../assets/mens/oasi-lino-shirt.avif" alt="Lino Shirt">
             <p>Lino Shirt</p>
         </div>
-        <div class="highlight-item">
+        <div class="highlight-item" data-id="10">
             <img src="../assets/mens/ochre-polo.avif" alt="Ochre Polo">
             <p>Ochre Polo</p>
         </div>
@@ -92,6 +92,37 @@
             <p class="footer-bottom">© 2025 Luxus Clothing | Made with ❤️</p>
         </div>
     </footer>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="modal-info">
+            <h2 id="productName"></h2>
+            <p id="productDesc"></p>
+            <p><strong>Prize:</strong> $<span id="productPrice"></span></p>
+            <label for="productSize">Sizes:</label>
+            <select id="productSize"></select>
+          </div>
+      
+          <!-- Carrusel de imágenes -->
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carouselImages"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+          <!-- Botón Add to Cart al final -->
+          <button id="addToCartBtn" class="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+      
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/script.js"></script>
 </body>
