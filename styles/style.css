@@ -117,13 +117,13 @@
   .hero-text h1 {
     font-family: var(--font-main);
     font-size: 8rem;
-    color: white;
+    color: var(--luxus-beige);
   }
   
   .hero-text p {
     font-size: 4rem;
     margin-top: 1rem;
-    color: var(--luxus-beige);
+    color: white;
   }
   /* Hero de Men's Collection */
 .hero-men {
@@ -151,6 +151,7 @@
 }
 
 .highlight-item {
+  background-color: #eceaea;
   flex: 1 1 calc(30% - 20px);
   max-width: 300px;
   text-align: center;
