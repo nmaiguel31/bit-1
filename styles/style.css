@@ -435,16 +435,16 @@
 }
 
 .hero-text {
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de transparencia */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 1rem 2rem;
   border-radius: 10px;
-  display: inline-block; /* Para que el fondo solo ocupe el espacio del texto */
+  display: inline-block; 
 }
 
 .hero-men h1,
 .hero-women h1,
 .hero-signature h1 {
-  background-color: rgba(0, 0, 0, 0.664); /* También para los h1 de cada hero individual */
+  background-color: rgba(0, 0, 0, 0.664);
   padding: 0.5rem 1rem;
   border-radius: 10px;
   display: inline-block;
