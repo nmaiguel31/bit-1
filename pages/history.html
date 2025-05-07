@@ -30,6 +30,12 @@
           <div id="cart-dropdown" class="cart-dropdown hidden">
             <p class="cart-title">Your Cart</p>
             <ul id="cart-items-list"></ul>
+          
+            <!-- TOTAL DEL CARRITO -->
+            <div class="cart-total-container">
+              Total: <span id="cart-total">$0.00</span>
+            </div>
+          </div>   
           </div>
         </div>
       </div>
@@ -75,6 +81,36 @@
         <p class="footer-bottom">© 2025 Luxus Clothing | Made with ❤️</p>
     </div>
 </footer>
+    
+<div id="productModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-info">
+      <h2 id="productName"></h2>
+      <p id="productDesc"></p>
+      <p><strong>Prize:</strong> $<span id="productPrice"></span></p>
+      <label for="productSize">Sizes:</label>
+      <select id="productSize"></select>
+    </div>
+
+    <!-- Carrusel de imágenes -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="carouselImages"></div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Botón Add to Cart al final -->
+    <button id="addToCartBtn" class="add-to-cart-btn">Add to Cart</button>
+  </div>
+</div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../js/script.js"></script>
 </body>

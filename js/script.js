@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
       description: 'This polo shirt is crafted from Luxus Premium Cotton in a refined ochre colorway.',
       sizes: ['32','34','36','38','40','42','44'],
       images: [
-        "../assets/womens/leggings-Cropped view.avif",
+        "../assets/womens/leggings-Worn view.avif",
         "../assets/womens/leggings-Front view.avif",
         "../assets/womens/leggings-Worn view.avif",
   ]
@@ -184,8 +184,8 @@ document.addEventListener("DOMContentLoaded", () => {
       sizes: [],
       images: [
           "../assets/womens/cartera-capucines-Worn view.avif",
-          "../assets/mens/ochre-polo-front.avif",
-          "../assets/mens/ochre-polo-back.avif",
+          "../assets/womens/cartera-capucines-Front view.avif",
+          "../assets/womens/cartera-capucines-Back view.avif",
   ]
     },
     18: {
@@ -380,4 +380,3 @@ document.addEventListener("DOMContentLoaded", () => {
     this.reset(); // Limpia los campos del formulario
   });
 });
-``
