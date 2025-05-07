@@ -887,6 +887,15 @@ width: 100%;
 height: auto;
 }
 
+.cart-total-container {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+  text-align: right;
+}
+
+
 /* Para pantallas medianas (768px) */
 @media (max-width: 768px) {
 .hero-text h1 {
