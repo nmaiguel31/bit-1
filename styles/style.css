@@ -690,8 +690,16 @@ background-color: var(--luxus-orange-dark);
   text-align: center;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre las secciones */
+  flex-wrap: wrap; /* Permite que los elementos se acomoden en múltiples filas si es necesario */
+  gap: 20px; /* Espacio entre las secciones */
+}
+
 .footer-section {
-  margin: 1rem;
+  flex: 1 1 30%; /* Cada sección ocupará el 30% del contenedor, pero puede ser más pequeño si el espacio es limitado */
+  min-width: 200px; /* Ajusta el mínimo si lo deseas */
 }
 
 .footer-section a {
@@ -700,9 +708,10 @@ background-color: var(--luxus-orange-dark);
 }
 
 .footer-bottom {
-  text-align: jus;
-  margin-top: 2rem;
-  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #777;
 }
   
 .logo {

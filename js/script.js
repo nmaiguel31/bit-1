@@ -112,6 +112,115 @@ document.addEventListener("DOMContentLoaded", () => {
           "../assets/mens/ochre-polo-back.avif",
   ]
     },
+    11: {
+      name: 'Knit Dress',
+      price: 1800,
+      description: 'These flattering leggings, crafted from technical knit, feature a comfortable, sporty design. They feature a striking contrast elastic waistband with a stylish signature Monogram motif.',
+      sizes: ['32','34','36','38','40','42','44'],
+      images: [
+          "../assets/womens/vestido-de-punto-Cropped view.avif",
+          "../assets/womens/vestido-de-punto-Front view.avif",
+          "../assets/womens/vestido-de-punto-worn view.avif",
+  ]
+    },
+    12: {
+      name: 'Monogram Waistband Leggings',
+      price: 990,
+      description: 'This polo shirt is crafted from Luxus Premium Cotton in a refined ochre colorway.',
+      sizes: ['32','34','36','38','40','42','44'],
+      images: [
+        "../assets/womens/leggings-Cropped view.avif",
+        "../assets/womens/leggings-Front view.avif",
+        "../assets/womens/leggings-Worn view.avif",
+  ]
+    },
+    13: {
+      name: 'Poplin blouse',
+      price: 1950,
+      description: 'Crafted from starched cotton poplin, this blouse features a modern design with clean lines. The top features a V-shaped inset, while the bottom features a peplum for added volume.',
+      sizes: ['34','36','38','40','42','44'],
+      images: [
+          "../assets/womens/blusa-de-popelin-view.avif",
+          "../assets/womens/blusa-de-popelin-Front view.avif",
+          "../assets/womens/blusa-de-popelin-Ambiance view.avif",
+  ]
+    },
+    14: {
+      name: 'Slim-cut jeans',
+      price: 1350,
+      description: 'These essential denim jeans feature classic yellow stitching, highlighting their construction.',
+      sizes: ['34','36','38','40','42','44'],
+      images: [
+          "../assets/womens/vaqueros-Worn view.avif",
+          "../assets/womens/vaqueros-Front view.avif",
+          "../assets/womens/vaqueros- worn view.avif",
+  ]
+    },
+    15: {
+      name: 'Cat Eye Sunglasses',
+      price: 490,
+      description: 'The striking LV Glam 2.0 Cat Eye sunglasses stand out with their colorful lenses and classic shape',
+      sizes: [],
+      images: [
+          "../assets/womens/gafas-de-sol-Interior view.avif",
+          "../assets/womens/gafas-de-sol-Side view.avif",
+  ]
+    },
+    16: {
+      name: 'Moon Metal Cat Eye',
+      price: 600,
+      description: 'An updated version of the iconic LV Moon style, the LV Moon Metal Cat Eye sunglasses feature classic lens shapes with a modern twist.',
+      sizes: [],
+      images: [
+          "../assets/womens/gafas-de-sol-lmoon-Interior view.avif",
+          "../assets/womens/gafas-de-sol-moon-Side view.png",
+          "../assets/womens/gafas-de-sol-moon-Front view.avif",
+  ]
+    },
+    17: {
+      name: 'Capucines wallet',
+      price: 2900,
+      description: 'This new Capucines wallet, crafted in smooth leather, combines craftsmanship and refined details.',
+      sizes: [],
+      images: [
+          "../assets/womens/cartera-capucines-Worn view.avif",
+          "../assets/mens/ochre-polo-front.avif",
+          "../assets/mens/ochre-polo-back.avif",
+  ]
+    },
+    18: {
+      name: 'Alma BB bag',
+      price: 1700,
+      description: 'Inspired by the original 1934 Art Deco style, this Alma BB bag is crafted from the Maisons signature textured and deep-dyed Epi leather.',
+      sizes: [],
+      images: [
+          "../assets/womens/bolso-alma-Worn view.avif",
+          "../assets/womens/bolso-alma-Front view.avif",
+          "../assets/womens/bolso-alma-Back view.avif",
+  ]
+    },
+    19: {
+      name: 'Silhouette Sandal',
+      price: 940,
+      description: 'This Silhouette sandal is crafted from calfskin and a jacquard weave with a Monogram motif, which has been embroidered to create a geometric pattern.',
+      sizes: ['5 = 35 EU','6 = 36 EU','6.5 = 37 EU','7.5 = 38 EU','8 = 39 EU','9 = 40 EU'],
+      images: [
+          "../assets/womens/sandalia-Front view.avif",
+          "../assets/womens/sandalia-Interior view.avif",
+          "../assets/womens/sandalia-Back view.avif",
+  ]
+    },
+    20: {
+      name: 'Swing backless court shoe',
+      price: 950,
+      description: 'This Swing slingback pump is crafted from smooth, soft, and supple lambskin.',
+      sizes: ['5 = 35 EU','6 = 36 EU','6.5 = 37 EU','7.5 = 38 EU','8 = 39 EU','9 = 40 EU'],
+      images: [
+          "../assets/womens/zapato-Front view.avif",
+          "../assets/womens/zapato-Interior view.avif",
+          "../assets/womens/zapato-Back view.avif",
+  ]
+    },
   };
 
   const cartCount = document.getElementById("cart-count");
