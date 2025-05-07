@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     1: {
       id: 1,
       name: "Leather Jacket",
-      description: "Elegant leather jacket for all occasions...",
+      description: "Elegant leather jacket for all occasions.This regular-fit bomber jacket is crafted from matte leather with a Web trim ",
       price: 3600,
       sizes: ["46", "48", "52", "54"],
       images: [
@@ -14,17 +14,104 @@ document.addEventListener("DOMContentLoaded", () => {
         "../assets/mens/Light-Chaqueta-piel-back.avif",
       ],
     },
-    2: {
-      name: "Squared Sunglasses",
-      price: 280,
-      description: "The Cruise 2025 eyewear collection...",
+  2: {
+    name: 'Squared Sunglasses',
+    price: 280,
+    description: 'The Cruise 2025 eyewear collection combines essential designs and exclusive motifs. ',
+    sizes: [],
+    images: [
+      "../assets/mens/Light-Gafas-de-sol.avif",
+      "../assets/mens/Light-Gafas-de-sol-face.avif",
+      ]
+  },
+  3: {
+      name: 'Brown Mocasin',
+      price: 890,
+      description: 'Modern interpretations of traditional symbols pay homage to Luxus heritage while looking to the future. These leather loafers reinterpret the traditional Horsebit design with a flat sole. The gold-toned detailing is a direct link to the brand jump in sports and leisure.',
+      sizes: ['8 = 42 EU','9 = 43 EU','10 = 44 EU','11 = 45 EU','12 = 46 EU','13 = 47 EU'],
+      images: [
+          "../assets/mens/Light-Mocasn-hombre.avif",
+          "../assets/mens/Light-Mocasn-hombre-front.avif",
+          "../assets/mens/Light-Mocasn-hombre-back.avif",
+      ]
+    },
+  4: {
+      name: 'Denim Jeans',
+      price: 780,
+      description: 'The Cruise 2025 collection presents a new take on denim with subtle details that enhance everyday looks. These slim-fit pants are crafted from certified cotton denim with a green and red Web tab detail at the hems.',
+      sizes: ['30','31','32','33','34','35','36','37','38','39','40','41','42','43'],
+      images: [
+          "../assets/mens/Light-Pantalon-denim.avif",
+          "../assets/mens/Light-Pantalon-denim-front.avif",
+          "../assets/mens/Light-Pantalon-denim-back.avif",
+      ]
+    },
+  5: {
+      name: 'Brown Suit',
+      price: 7950,
+      description: 'The dark brown suit in Oasi Cashmere showcases Luxus commitment to luxury fabrics.',
+      sizes: ['48','50','52','56'],
+      images: [
+          "../assets/mens/traje-marron.avif",
+          "../assets/mens/traje-marron-frente.avif",
+          "../assets/mens/traje-marron-atras.avif",
+      ]
+    },
+  6: {
+      name: 'Black Smokin',
+      price: 4100,
+      description: 'Black wool and silk tuxedo has a fluid drape.',
+      sizes: ['48','50','52','54','56','58'],
+      images: [
+          "../assets/mens/smokin.avif",
+          "../assets/mens/smokin-frente.avif",
+          "../assets/mens/smokin-atras.avif",
+      ]
+    },
+  7: {
+      name: 'Beige Blazer',
+      price: 6100,
+      description: 'A light beige and light taupe Madras checked motif in cashmere and silk: this cardigan jacket is a sartorial staple.',
+      sizes: ['46','48','50','52','54','56','58'],
+      images: [
+          "../assets/mens/beige-blazer.avif",
+          "../assets/mens/baige-blazer-front.jpeg",
+          "../assets/mens/baige-blazer-back.jpeg",
+  ]
+    },
+  8: {
+      name: 'Green Scarf',
+      price: 600,
+      description: 'The dark green multimélange Oasi Cashmere scarf is a luxurious choice of accessory.',
       sizes: [],
       images: [
-        "../assets/mens/Light-Gafas-de-sol.avif",
-        "../assets/mens/Light-Gafas-de-sol-face.avif",
-      ],
+          "../assets/mens/green-scarf.avif",
+          "../assets/mens/green-scarf-closeup.avif",
+          "../assets/mens/green-scarf-fullbody.avif",
+  ]
     },
-    // ... continúa con los demás productos
+  9: {
+      name: 'Lino Shirt',
+      price: 890,
+      description: 'This light blue Oasi Lino shirt is made from Luxus 100% European-grown linen.',
+      sizes: ['S','M','L','XL','XXL'],
+      images: [
+          "../assets/mens/oasi-lino-shirt.avif",
+          "../assets/mens/oasi-lino-shirt-front.avif",
+          "../assets/mens/oasi-lino-shirt-back.avif",
+  ]
+    },
+  10: {
+      name: 'Ochre Polo',
+      price: 1100,
+      description: 'This polo shirt is crafted from Luxus Premium Cotton in a refined ochre colorway.',
+      sizes: ['46','48','50','52','54','56','58','60'],
+      images: [
+          "../assets/mens/ochre-polo.avif",
+          "../assets/mens/ochre-polo-front.avif",
+          "../assets/mens/ochre-polo-back.avif",
+  ]
+    },
   };
 
   const cartCount = document.getElementById("cart-count");
@@ -184,3 +271,4 @@ document.addEventListener("DOMContentLoaded", () => {
     this.reset(); // Limpia los campos del formulario
   });
 });
+``
