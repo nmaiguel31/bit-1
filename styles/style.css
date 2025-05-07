@@ -370,6 +370,38 @@ color: var(--luxus-orange-dark);
 }
 }
 
+/* Hero de Signature Collection Mens */
+.hero-signature-mens {
+  background: url('../assets/signature-mens.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .hero-signature-mens h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+
+/* Hero de Signature Collection Womens */
+.hero-signature-womens {
+  background: url('../assets/signature-womens.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+  .hero-signature-womens h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+
 /* Hero de Signature Collection */
 .hero-signature {
 background: url('../assets/hero-signature.jpg') no-repeat center center/cover;
@@ -722,6 +754,7 @@ background-color: var(--luxus-orange-dark);
 .small-social {
       width: 24px;
       height: 24px;
+      padding: 2px;
 }
   
 /* Responsive Design */
@@ -903,7 +936,6 @@ height: auto;
   font-weight: bold;
   text-align: right;
 }
-
 
 /* Para pantallas medianas (768px) */
 @media (max-width: 768px) {

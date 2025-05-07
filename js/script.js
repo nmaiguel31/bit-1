@@ -221,6 +221,138 @@ document.addEventListener("DOMContentLoaded", () => {
           "../assets/womens/zapato-Back view.avif",
   ]
     },
+    21: {
+      name: 'Totissima Large Reversible Tote Bag',
+      price: 2200,
+      description: 'The reversible Totissima tote offers two distinct looks in one piece, with grained leather on one side and GG canvas on the other. The Totissima name emphasizes its enduring style and functionality.',
+      sizes: [],
+      images: [
+          "../assets/signature/Bolso-Totissima.avif",
+          "../assets/signature/Bolso-Totissima-front.avif",
+          "../assets/signature/Bolso-Totissima-side.avif",
+  ]
+    },
+    22: {
+      name: 'Softbit maxi shoulder bag',
+      price: 2900,
+      description: 'The new Softbit shoulder bag features the House signature maxi half-Horsebit appliqué. This style combines aesthetics and functionality with its spacious design in supple grained leather with an exquisite texture and a magnetic closure.',
+      sizes: [],
+      images: [
+          "../assets/signature/Bolso-Softbit.avif",
+          "../assets/signature/Bolso-Softbit-front.avif",
+          "../assets/signature/Bolso-Softbit-side.avif",
+  ]
+    },
+    23: {
+      name: 'GG Marmont Mini Shoulder Bag',
+      price: 1200,
+      description: 'This Swing slingback pump is crafted from smooth, soft, and supple lambskin.',
+      sizes: [],
+      images: [
+          "../assets/signature/Minibolso-Marmont.avif",
+          "../assets/signature/Minibolso-Marmont-front.avif",
+          "../assets/signature/Minibolso-Marmont-side.avif",
+  ]
+    },
+    24: {
+      name: 'Re-Motion womens sneaker',
+      price: 900,
+      description: 'As part of the Spring Summer 2025 collection, these sporty sneakers feature an adjustable and removable ankle strap. The lightweight and flexible black outsole has been specially treated for a retro finish.',
+      sizes: ['5 = 35 EU','6 = 36 EU','6.5 = 37 EU','7.5 = 38 EU','8 = 39 EU','9 = 40 EU'],
+      images: [
+          "../assets/signature/Zapatilla-Motion.avif",
+          "../assets/signature/Zapatilla-Motion-front.avif",
+          "../assets/signature/Zapatilla-Motion-back.avif",
+  ]
+    },
+    25: {
+      name: 'Horsebit Thong Sandal',
+      price: 670,
+      description: 'These womens thong sandals epitomize elegance and simplicity, with a design that adds a unique touch to warm-weather looks.',
+      sizes: ['5 = 35 EU','6 = 36 EU','6.5 = 37 EU','7.5 = 38 EU','8 = 39 EU','9 = 40 EU'],
+      images: [
+          "../assets/signature/Sandalia-Horsebit.avif",
+          "../assets/signature/Sandalia-Horsebit-front.avif",
+          "../assets/signature/Sandalia-Horsebit-back.avif",
+  ]
+    },
+    26: {
+      name: 'Jordaan loafer for women',
+      price: 890,
+      description: 'The Horsebit loafers, a testament to heritage, reflect classic elegance.',
+      sizes: ['5 = 35 EU','6 = 36 EU','6.5 = 37 EU','7.5 = 38 EU','8 = 39 EU','9 = 40 EU'],
+      images: [
+          "../assets/signature/Light-Mocasn.avif",
+          "../assets/signature/Light-Mocasn-front.avif",
+          "../assets/signature/Light-Mocasn-back.avif",
+  ]
+    },
+    27: {
+      name: 'Horsebit Loafer',
+      price: 990,
+      description: 'From the Spring Summer 2025 collection, these dark brown leather Horsebit loafers showcase the signature silver appliqué on the glossy leather upper and a sculptural elongated toe.',
+      sizes: ['8 = 42 EU','9 = 43 EU','10 = 44 EU','11 = 45 EU','12 = 46 EU','13 = 47 EU'],
+      images: [
+          "../assets/signature/Mocasn-con-Horsebit.avif",
+          "../assets/signature/Mocasn-con-Horsebit-front.avif",
+          "../assets/signature/Mocasn-con-Horsebit-back.jpg",
+  ]
+    },
+    28: {
+      name: 'leather Web shoe',
+      price: 950,
+      description: 'These mens lace-up shoes are crafted from glossy black leather, a sophisticated and elegant material that highlights the styles sleek silhouette. The iconic green and red Web stripe, the brands signature symbol, enhances this style with a subtle touch.',
+      sizes: ['8 = 42 EU','9 = 43 EU','10 = 44 EU','11 = 45 EU','12 = 46 EU','13 = 47 EU'],
+      images: [
+          "../assets/signature/Zapato-con-tribanda.avif",
+          "../assets/signature/Zapato-con-tribanda-front.avif",
+          "../assets/signature/Zapato-con-tribanda-back.avif",
+  ]
+    },
+    29: {
+      name: 'Re-Web Mens Sneaker',
+      price: 950,
+      description: 'The Re-Web sneakers, Sabato De Sarnos first for the brand, are a contemporary design enhanced by striking classic stripes. This model is crafted from white leather. Featuring a variety of iconic details, these new sneakers capture attention thanks to the green and red Web tongue.',
+      sizes: ['8 = 42 EU','9 = 43 EU','10 = 44 EU','11 = 45 EU','12 = 46 EU','13 = 47 EU'],
+      images: [
+          "../assets/signature/Zapatilla-Re-Web.avif",
+          "../assets/signature/Zapatilla-Re-Web-front.avif",
+          "../assets/signature/Zapatilla-Re-Web-back.avif",
+  ]
+    },
+    30: {
+      name: 'Medium GG canvas backpack',
+      price: 2200,
+      description: 'This small GG canvas backpack pays homage to the founder unmistakable monogram. The design is completed with a Web detail and showcases a new forest green hue, bringing a contemporary touch to everyday accessories.',
+      sizes: [],
+      images: [
+          "../assets/signature/Mochila-de-lona-GG.avif",
+          "../assets/signature/Mochila-de-lona-GG-front.avif",
+          "../assets/signature/Mochila-de-lona-GG-back.avif",
+  ]
+    },
+    31: {
+      name: 'Nexus backpack medium size',
+      price: 950,
+      description: 'The selection of mens bags from the Cruise 2025 collection combines sleek lines and a sporty aesthetic. This backpack is crafted from sophisticated black nylon, a soft yet durable material enhanced by the all-over GG motif. Other exclusive details include a green and red Web stripe.',
+      sizes: [],
+      images: [
+          "../assets/signature/Mochila-Nexus.avif",
+          "../assets/signature/Mochila-Nexus-front.avif",
+          "../assets/signature/Mochila-Nexus-back.avif",
+  ]
+    },
+    32: {
+      name: 'GG Emblem Medium Backpack',
+      price: 2250,
+      description: 'The new GG Emblem mens travel collection reinterprets the Houses history of elegance and craftsmanship. Crafted from the new black GG monogram coated fabric, this backpack features versatile interior pockets and an exterior D-ring for accessory storage.',
+      sizes: [],
+      images: [
+          "../assets/signature/Mochila-GG-Emblem.avif",
+          "../assets/signature/Mochila-GG-Emblem-front.avif",
+          "../assets/signature/Mochila-GG-Emblem-back.avif",
+  ]
+    },
   };
 
   const cartCount = document.getElementById("cart-count");

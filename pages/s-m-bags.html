@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxus Clothing | Signature Collection</title>
+    <title>Luxus Clothing | Women's Collection</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Cormorant+Upright&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
 </head>
-<div class="header">
+<body>
+  <div class="header">
     <div class="header-content">
       <a href="../index.html">
         <img src="../assets/logo.png" alt="Luxus Clothing Logo" class="logo">
@@ -29,61 +30,60 @@
           <div id="cart-dropdown" class="cart-dropdown hidden">
             <p class="cart-title">Your Cart</p>
             <ul id="cart-items-list"></ul>
+          
+            <!-- TOTAL DEL CARRITO -->
+            <div class="cart-total-container">
+              Total: <span id="cart-total">$0.00</span>
+            </div>
+          </div>   
           </div>
         </div>
       </div>
     </div>
   </div>
-    <section class="hero-signature">
-        <h1>Signature Collection</h1>
+    <section class="hero-signature-mens">
+        <h1>Signature Men's Bags</h1>
     </section>
 
-    <section class="signature">
-        <h2>A SIGNATURE COLLECTION</h2>
-        <div class="signature-grid">
-            <div class="signature-item">
-                <a href="../pages/s-w-shoes.html"><img src="../assets/signature-womens-shoes.jpg" alt="Signature Women's Shoes"></a>
-                <p>Women's Shoes</p>
-            </div>
-            <div class="signature-item">
-                <a href="../pages/s-w-bags.html"><img src="../assets/signature-womens-bags.jpg" alt="Signature Women's Bags"></a>
-                <p>Women's Bags</p>
-            </div>
-            <div class="signature-item">
-                <a href="../pages/s-m-bags.html"><img src="../assets/signature-mens-bags.jpg" alt="Signature Men's Bags"></a>
-                <p>Men's Bags</p>
-            </div>
-            <div class="signature-item">
-                <a href="../pages/s-m-shoes.html"><img src="../assets/signature-mens-shoes.jpg" alt="Signature Men's Shoes"></a>
-                <p>Men's Shoes</p>
-            </div>
+    <section class="women-highlights">
+        <div class="highlight-item" data-id="30">
+            <img src="../assets/signature/Mochila-de-lona-GG-front.avif" alt="Medium GG canvas backpack">
+            <p>Medium GG canvas backpack</p>
+        </div>
+        <div class="highlight-item" data-id="31">
+            <img src="../assets/signature/Mochila-Nexus-front.avif" alt="Monogram Waistband Leggings">
+            <p>Monogram Waistband Leggings</p>
+        </div>
+        <div class="highlight-item" data-id="32">
+            <img src="../assets/signature/Mochila-GG-Emblem-front.avif" alt="Poplin blouse">
+            <p>Poplin blouse</p>
         </div>
     </section>
 
     <footer>
-        <div class="footer">
-            <div class="footer-container">
-              <div class="footer-section">
-                <h4>Follow Us</h4>
-                <a href="https://www.facebook.com" target="_blank"><img src="../assets/facebook.png" alt="Facebook" class="social-icon small-social"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="../assets/instagram.png" alt="Instagram" class="social-icon small-social"></a>
-                <a href="https://www.twitter.com" target="_blank"><img src="../assets/X.png" alt="X" class="social-icon small-social"></a>
-              </div>
-              <div class="footer-section">
-                  <h4>Contact Us</h4>
-                  <p>Email: info@luxus.com</p>
-                  <p>Phone: (123) 456-7890</p>
-                  <p>Address: 123 Luxury St, Clothing City</p>
-              </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <p><a href="../index.html">Home</a> | <a href="./contact.html">Contact</a> | <a href="./history.html">About Us</a></p>
-                </div>
+      <div class="footer">
+          <div class="footer-container">
+            <div class="footer-section">
+              <h4>Follow Us</h4>
+              <a href="https://www.facebook.com" target="_blank"><img src="../assets/facebook.png" alt="Facebook" class="social-icon small-social"></a>
+              <a href="https://www.instagram.com" target="_blank"><img src="../assets/instagram.png" alt="Instagram" class="social-icon small-social"></a>
+              <a href="https://www.twitter.com" target="_blank"><img src="../assets/X.png" alt="X" class="social-icon small-social"></a>
             </div>
-            <p class="footer-bottom">© 2025 Luxus Clothing | Made with ❤️</p>
-        </div>
-    </footer>
-        
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@luxus.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Address: 123 Luxury St, Clothing City</p>
+            </div>
+              <div class="footer-section">
+                  <h4>Quick Links</h4>
+                  <p><a href="../index.html">Home</a> | <a href="./contact.html">Contact</a> | <a href="./history.html">About Us</a></p>
+              </div>
+          </div>
+          <p class="footer-bottom">© 2025 Luxus Clothing | Made with ❤️</p>
+      </div>
+  </footer>
+
     <div id="productModal" class="modal">
         <div class="modal-content">
           <span class="close">&times;</span>
@@ -112,6 +112,7 @@
           <button id="addToCartBtn" class="add-to-cart-btn">Add to Cart</button>
         </div>
       </div>
+      
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/script.js"></script>
