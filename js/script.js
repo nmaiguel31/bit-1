@@ -501,14 +501,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Carga inicial
+  // Carga inicial para que el carrito no se borre
   loadCart();
 
   // Contact page
 
   document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Evita que recargue la página
+    event.preventDefault();
     alert('Thanks for contacting us! We’ll get back to you soon.');
-    this.reset(); // Limpia los campos del formulario
+    this.reset(); 
   });
 });
