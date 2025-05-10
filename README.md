@@ -1,6 +1,8 @@
 # bit-1
 # Luxus Clothing
 
+![logo](https://github.com/user-attachments/assets/69634753-a677-4bc2-80de-ad93fed93007)
+
 Luxus Clothing is a responsive fashion e-commerce website that showcases luxury apparel and accessories for men and women. The site features interactive modals for products, a functional cart system, and an elegant, modern layout designed with HTML, CSS, JavaScript, and Bootstrap 5.
 
 ## 📁 Project Structure
@@ -42,6 +44,7 @@ luxus-clothing/
 - HTML5 – Structure
 
 - CSS3 – Styling and responsive design
+
 
 - JavaScript – Modals, cart logic, interactivity
 
