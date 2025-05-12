@@ -5,6 +5,10 @@
 
 Luxus Clothing is a responsive fashion e-commerce website that showcases luxury apparel and accessories for men and women. The site features interactive modals for products, a functional cart system, and an elegant, modern layout designed with HTML, CSS, JavaScript, and Bootstrap 5.
 
+## Figma
+
+![figma](https://github.com/user-attachments/assets/75ed225a-37bd-4db2-aaa1-c6cb933c3b91)
+
 ## 📁 Project Structure
 luxus-clothing/
 │
